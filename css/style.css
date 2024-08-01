@@ -293,6 +293,63 @@ section p {
           box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
 }
 
+.team {
+  background: url(../img/bg-tem.jpg) center/cover no-repeat;
+  padding-top: 40px;
+  padding-bottom: 125px;
+}
+.team h6 {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.5em;
+}
+
+.team__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.team__text {
+  width: 50%;
+  max-width: 563px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.team__text p + p {
+  font-weight: 400;
+  max-width: 530px;
+}
+
+.team__img {
+  width: 50%;
+  max-width: 500px;
+  position: relative;
+}
+.team__img .circle {
+  left: 0;
+  -webkit-transform: translate(-40%, -50%);
+          transform: translate(-40%, -50%);
+}
+.team__img img {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
+}
+
 :host {
   position: relative;
   display: block;
